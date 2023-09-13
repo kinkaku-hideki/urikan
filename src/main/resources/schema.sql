@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS urikantbl(
     hssuu       int(3),
     dousu       int(3),
     turesu      int(3),
-    ccd1        int(3),)
+    ccd1        int(3),
     cast1       VARCHAR(256),
     js1         int(3),
     ccd2        int(3),
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS urikantbl(
     drksuu      int(5),
     encd        int(3),
     enbun       VARCHAR(128),
-    entime      int(3,
+    entime      int(3),
     ccde        int(3),
     entaisyou   VARCHAR(256));
 

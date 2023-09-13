@@ -1,4 +1,4 @@
 package org.example.urikanri;
 
-public class TaskListDao {
+public class UrikanListDao {
 }
