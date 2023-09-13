@@ -14,9 +14,9 @@ import java.util.UUID;
 
 @Controller
 public class HomeController {
-    private final TaskListDao dao;
+    private final UrikanListDao dao;
     @Autowired
-    HomeController(TaskListDao dao){
+    HomeController(UrikanListDao dao){
         this.dao = dao;
     }
     record TaskItem(String id, String task,String deadline, String memo, boolean done){}
